@@ -128,3 +128,42 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Vim swap files
+*.swp
+
+# macOS files
+.DS_Store
+
+# lock files
+bun.lockb
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# editor files
+.vscode
+.idea
+
+# Optional compressed files (npm generated package, zip, etc)
+/*.zip
+
+# 0x
+profile-*
+
+# clinic
+profile*
+*clinic*
+*flamegraph*
+
+# generated code
+examples/typescript-server.js
+test/types/index.js
+
+# test tap report
+out.tap
+
+# test certification
+test/https/fastify.cert
+test/https/fastify.key
+/test/types/import.js
